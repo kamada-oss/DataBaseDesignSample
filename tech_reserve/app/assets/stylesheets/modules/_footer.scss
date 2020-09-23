@@ -1,0 +1,17 @@
+.footer{
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  line-height: 50px;
+  background-color: $tech-reserve;
+  display: flex;
+  &__logo{
+    margin-left: 30px;
+    font-weight: bold;
+    a{
+      text-decoration: none;
+      color: $black;
+      color: $white;
+    }
+  }
+}

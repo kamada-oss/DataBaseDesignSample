@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+.header{
+  height: 80px;
+  width: 100%;
+  border-bottom: solid 1px #EEEEEE;
+  line-height: 80px;
+  margin-bottom: 10px;
+  display: flex;
+  &__logo{
+    margin-left: 30px;
+    font-weight: bold;
+    a{
+      text-decoration: none;
+      color: $black;
+    }
+  }
+  &__message{
+    margin-left: 30px;
+    color: $gray;
+  }
+  &__login{
+    margin-left: 100px;
+    a{
+      text-decoration: none;
+      color: $tech-reserve;
+    }
+  }
+  &__output-index{
+    margin-left: 100px;
+    a{
+      text-decoration: none;
+      color: $tech-reserve;
+    }
+  }
+}
